@@ -1,5 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const routes = require('./routes')
+
 const app = express()
 
 mongoose.connect('mongodb+srv://stefano:AGzzcso1$@cluster0.fzaoe.mongodb.net/week10?retryWrites=true&w=majority', {
@@ -8,10 +10,6 @@ mongoose.connect('mongodb+srv://stefano:AGzzcso1$@cluster0.fzaoe.mongodb.net/wee
 })
 
 app.use(express.json())
-
-app.post('/users', (req, res) => {
-    console.log(req.body)
-    return res.json({ message: 'Hello Omnistack' })
-})
+app.use(routes)
 
 app.listen(3333)
