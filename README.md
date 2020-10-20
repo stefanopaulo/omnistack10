@@ -1,7 +1,7 @@
 # Semana OmniStack 10
 
 A semana omnistack é um treinamento intesivo oferecido pelo [Rocketseat](https://rocketseat.com.br) durante uma semana.
-Nessa semana nós passamos por todas as fases do desenvolvimento fullstack, desenvolvendo uma api RestFULL com Node, Uma interface web com ReactJS e um aplicativo mobile com React Native.
+Nessa semana nós passamos por todas as fases do desenvolvimento fullstack, desenvolvendo uma api RestFUL com Node, Uma interface web com ReactJS e um aplicativo mobile com React Native.
 A aplicação se trata de um cadastro e busca de devs.
 
 ### API com Node
